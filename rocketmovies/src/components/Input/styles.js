@@ -6,8 +6,7 @@ export const Container = styled.div`
   align-items: center;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
-  color: ${({ theme }) => theme.COLORS.PINK};
-
+  
   margin-bottom: 8px;
   border-radius: 10px;
 

@@ -1,7 +1,11 @@
-import { Container, Form } from "./styles";
+import { Container, Form, Background } from "./styles";
+
+import { FiMail, FiLock } from "react-icons/fi";
 
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
+
+
 
 export function SignIn() {
     return(
@@ -12,13 +16,15 @@ export function SignIn() {
 
         <h2>Faça seu login</h2>
 
-        <Input type="text" placeholder="E-mail" />
-        <Input type="password" placeholder="Senha" />
+        <Input type="text" placeholder="E-mail" icon={FiMail} />
+        <Input type="password" placeholder="Senha" icon={FiLock} />
 
         <Button title="Entrar" />
 
         <a href="#">Criar Conta</a>
         </Form>
+
+        <Background />
      </Container>
     )
 }
