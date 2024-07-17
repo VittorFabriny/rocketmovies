@@ -1,11 +1,11 @@
 import { Container, Form, Background } from "./styles";
 
-import { FiMail, FiLock } from "react-icons/fi";
+import { FiUser, FiMail, FiLock, FiArrowLeft  } from "react-icons/fi";
 
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 
-export function SignIn() {
+export function SignUp() {
   return (
     <Container>
       <Form>
@@ -14,12 +14,17 @@ export function SignIn() {
 
         <h2>Faça seu login</h2>
 
+        <Input placeholder="Nome" type="text" icon={FiUser} />
         <Input type="text" placeholder="E-mail" icon={FiMail} />
         <Input type="password" placeholder="Senha" icon={FiLock} />
 
-        <Button title="Entrar" />
+        <Button title="Cadastrar" />
 
-        <a href="#">Criar Conta</a>
+        <a href="#">
+          {" "}
+          <FiArrowLeft />
+          Voltar para o login
+        </a>
       </Form>
 
       <Background />
