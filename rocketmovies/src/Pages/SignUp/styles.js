@@ -33,6 +33,10 @@ export const Form = styled.form`
     align-self: flex-start;
   }
 
+  > Button {
+    margin-top: 16px;
+  }
+
   a {
     margin-top: 42px;
     color: ${({ theme }) => theme.COLORS.PINK};
