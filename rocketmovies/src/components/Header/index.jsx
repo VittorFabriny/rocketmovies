@@ -10,10 +10,9 @@ export function Header() {
       <Profile>
         <div>
           <strong>Vittor Fabriny</strong>
-          <span>Sair</span>
+          <span>sair</span>
         </div>
         <img src="https://github.com/VittorFabriny.png" alt="Foto do Usuário" />
-
       </Profile>
     </Container>
   );
