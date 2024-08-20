@@ -12,12 +12,13 @@ import { SignUp } from "./Pages/SignUp";
 
 import { Home } from "./Pages/Home";
 import { Create } from "./Pages/Create";
+import { Preview } from "./Pages/Preview";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyles />
-      <Create />
+      <Preview />
     </ThemeProvider>
   </React.StrictMode>
 );
