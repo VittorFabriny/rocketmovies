@@ -74,6 +74,10 @@ export const Container = styled.div`
     display: flex;
     gap: 8px;
     margin-top: 40px;
+
+    > div {
+      background-color: #282124;
+    }
   }
 
   p {
