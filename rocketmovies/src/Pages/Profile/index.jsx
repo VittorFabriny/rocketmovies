@@ -1,5 +1,7 @@
 import { Container, Form, Avatar } from "./styles";
 
+import { Link } from "react-router-dom";
+
 import { FiArrowLeft, FiUser, FiMail, FiLock, FiCamera } from "react-icons/fi";
 
 import { Input } from "../../components/Input";
@@ -9,10 +11,10 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <a href="#">
+        <Link to="/">
           <FiArrowLeft />
           Voltar
-        </a>
+        </Link>
       </header>
 
       <Form>
@@ -28,7 +30,7 @@ export function Profile() {
         <Input placeholder="Senha atual" type="password" icon={FiLock} />
         <Input placeholder="Nova senha" type="password" icon={FiLock} />
 
-        <Button title="Salvar"/>
+        <Button title="Salvar" />
       </Form>
     </Container>
   );

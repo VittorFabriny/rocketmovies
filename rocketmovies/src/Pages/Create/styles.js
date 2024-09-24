@@ -20,7 +20,7 @@ export const Container = styled.div`
     font-family: "Roboto Slab", serif;
   }
 
-  a {
+  .titleWrapper a {
     display: flex;
     align-items: center;
 
@@ -71,5 +71,9 @@ export const Container = styled.div`
 
     gap: 40px;
     margin-top: 40px;
+  }
+
+  button {
+    max-width: 100%;
   }
 `;

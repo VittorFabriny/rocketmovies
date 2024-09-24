@@ -4,6 +4,7 @@ import { FiArrowLeft } from "react-icons/fi";
 import { IoStarSharp, IoStarOutline } from "react-icons/io5";
 import { PiClock } from "react-icons/pi";
 import moment from "moment";
+import { Link } from "react-router-dom";
 
 import { Header } from "../../components/Header";
 import { Tags } from "../../components/Tags";
@@ -18,10 +19,10 @@ export function Preview() {
       <Header />
       <main>
         <div className="contentWrapper">
-          <a href="#">
+          <Link to="/">
             <FiArrowLeft />
             Voltar
-          </a>
+          </Link>
           <div className="titleWrapper">
             <h1>Interestellar</h1>
             <div className="ratingWrapper">
@@ -76,17 +77,17 @@ export function Preview() {
             enorme estação espacial. A partida de Cooper devasta Murphy.
             <br />
             <br />
-            Além de Cooper, a tripulação da Endurance é formada pela bióloga Amelia,
-            filha de Brand; o cientista Romilly, o físico planetário Doyle, além
-            dos robôs TARS e CASE. Eles entram no buraco de minhoca e se dirigem
-            a Miller, porém descobrem que o planeta possui enorme dilatação
-            gravitacional temporal por estar tão perto de Gargântua: cada hora
-            na superfície equivale a sete anos na Terra. Eles entram em Miller e
-            descobrem que é inóspito já que é coberto por um oceano raso e
-            agitado por ondas enormes. Uma onda atinge a tripulação enquanto
-            Amelia tenta recuperar os dados de Miller, matando Doyle e atrasando
-            a partida. Ao voltarem para a Endurance, Cooper e Amelia descobrem
-            que 23 anos se passaram.
+            Além de Cooper, a tripulação da Endurance é formada pela bióloga
+            Amelia, filha de Brand; o cientista Romilly, o físico planetário
+            Doyle, além dos robôs TARS e CASE. Eles entram no buraco de minhoca
+            e se dirigem a Miller, porém descobrem que o planeta possui enorme
+            dilatação gravitacional temporal por estar tão perto de Gargântua:
+            cada hora na superfície equivale a sete anos na Terra. Eles entram
+            em Miller e descobrem que é inóspito já que é coberto por um oceano
+            raso e agitado por ondas enormes. Uma onda atinge a tripulação
+            enquanto Amelia tenta recuperar os dados de Miller, matando Doyle e
+            atrasando a partida. Ao voltarem para a Endurance, Cooper e Amelia
+            descobrem que 23 anos se passaram.
           </p>
         </div>
       </main>

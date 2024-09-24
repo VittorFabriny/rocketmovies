@@ -6,6 +6,8 @@ export const Container = styled.div`
   border-radius: 8px;
 
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_500};
+  color: ${({ theme }) => theme.COLORS.WHITE};
+
 
   font-size: 12px;
 `;

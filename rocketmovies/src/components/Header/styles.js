@@ -15,7 +15,7 @@ export const Container = styled.header`
 
   padding: 0 123px;
 
-  > h1 {
+  h1 {
     color: ${({ theme }) => theme.COLORS.PINK};
   }
 `;

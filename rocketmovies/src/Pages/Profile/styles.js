@@ -39,10 +39,9 @@ export const Form = styled.form`
     margin-top: 24px;
   }
 
-  button {
+  a {
     margin-top: 24px;
-}
-
+  }
 `;
 
 export const Avatar = styled.div`
@@ -58,4 +57,3 @@ export const Avatar = styled.div`
     border-radius: 50%;
   }
 `;
-

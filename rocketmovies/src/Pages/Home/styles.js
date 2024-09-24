@@ -27,7 +27,7 @@ export const Container = styled.div`
     }
   }
 
-  button {
+  a {
     max-width: 206px;
   }
 
